@@ -1,0 +1,275 @@
+Meninas 1 a 18 anos --------------
+
+Idade 1
+Magreza <13.9
+Normal 13.9 a 17.9
+Sobrepeso 17.9 a 19.4
+Obesidade >19.4
+
+Idade 2
+Magreza <13.5
+Normal 13.5 a 17.2
+Sobrepeso 17.2 a 18.5
+Obesidade >18.5
+
+Idade 3
+Magreza <13.2
+Normal 13.2 a 16.8
+Sobrepeso 16.8 a 18.2
+Obesidade >18.2
+
+Idade 4
+Magreza <13
+Normal 13 a 16.8
+Sobrepeso 16.8 a 18.3
+Obesidade >18.3
+
+Idade 5
+Magreza <12.7
+Normal 12.7 a 17
+Sobrepeso 17 a 19.2
+Obesidade >19.2
+
+Idade 6
+Magreza <12.7
+Normal 12.7 a 17.4
+Sobrepeso 17.4 a 19.7
+Obesidade >19.7
+
+Idade 7
+Magreza <12.7
+Normal 12.7 a 17.7
+Sobrepeso 17.7 a 20.5
+Obesidade >20.5
+
+Idade 8
+Magreza <12.9
+Normal 12.9 a 18.4
+Sobrepeso 18.4 a 21.4
+Obesidade >21.4
+
+Idade 9
+Magreza <13.1
+Normal 13.1 a 19.1
+Sobrepeso 19.1 a 22.5
+Obesidade >22.5
+
+Idade 10
+Magreza <13.5
+Normal 13.5 a 19.9
+Sobrepeso 19.9 a 23.6
+Obesidade >23.6
+
+Idade 11
+Magreza <13.9
+Normal 13.9 a 20.8
+Sobrepeso 20.8 a 24.9
+Obesidade >24.9
+
+Idade 11
+Magreza <13.9
+Normal 13.9 a 20.8
+Sobrepeso 20.8 a 24.9
+Obesidade >24.9
+
+Idade 12
+Magreza <14.4
+Normal 14.4 a 21.8
+Sobrepeso 21.8 a 26.1
+Obesidade >26.1
+
+Idade 13
+Magreza <14.9
+Normal 14.9 a 22.8
+Sobrepeso 22.8 a 27.2
+Obesidade >27.2
+
+Idade 14
+Magreza <15.4
+Normal 15.4 a 23.6
+Sobrepeso 23.6 a 28.2
+Obesidade >28.2
+
+Idade 15
+Magreza <15.9
+Normal 15.9 a 24.2
+Sobrepeso 24.2 a 28.8
+Obesidade >28.8
+
+Idade 16
+Magreza <16.2
+Normal 16.2 a 24.6
+Sobrepeso 24.6 a 29.3
+Obesidade >29.3
+
+
+Idade 17
+Magreza <16.4
+Normal 16.4 a 24.9
+Sobrepeso 24.9 a 29.5
+Obesidade >29.5
+
+Idade 18
+Magreza <16.4
+Normal 16.4 a 25.1
+Sobrepeso 25.1 a 29.7
+Obesidade >29.7
+
+
+Meninos 1 a 18 anos --------------
+
+Idade 1
+Magreza <14.5
+Normal 14.5 a 18.2
+Sobrepeso 18.2 a 19.6
+Obesidade >19.6
+
+Idade 2
+Magreza <14
+Normal 14 a 17.4
+Sobrepeso 17.4 a 18.7
+Obesidade >18.7
+
+Idade 3
+Magreza <13.4
+Normal 13.4 a 17
+Sobrepeso 17 a 18.2
+Obesidade >18.2
+
+Idade 4
+Magreza <13.2
+Normal 13.2 a 16.7
+Sobrepeso 16.7 a 18
+Obesidade >18
+
+Idade 5
+Magreza <13
+Normal 13 a 16.8
+Sobrepeso 16.8 a 18.5
+Obesidade >18.5
+
+Idade 6
+Magreza <13
+Normal 13 a 17.1
+Sobrepeso 17.1 a 19
+Obesidade >19
+
+Idade 7
+Magreza <13.1
+Normal 13.1 a 17.5
+Sobrepeso 17.5 a 19.6
+Obesidade >19.6
+
+Idade 8
+Magreza <13.3
+Normal 13.3 a 18
+Sobrepeso 18 a 20.4
+Obesidade >20.4
+
+Idade 9
+Magreza <13.5
+Normal 13.5 a 18.5
+Sobrepeso 18.5 a 21.3
+Obesidade >21.3
+
+Idade 10
+Magreza <13.7
+Normal 13.7 a 19.2
+Sobrepeso 19.2 a 22.4
+Obesidade >22.4
+
+Idade 11
+Magreza <14.1
+Normal 14.1 a 20
+Sobrepeso 20 a 23.5
+Obesidade >23.5
+
+Idade 12
+Magreza <14.5
+Normal 14.5 a 20.9
+Sobrepeso 20.9 a 24.7
+Obesidade >24.7
+
+Idade 13
+Magreza <14.9
+Normal 14.9 a 21.8
+Sobrepeso 21.8 a 25.8
+Obesidade >25.8
+
+Idade 14
+Magreza <15.5
+Normal 15.5 a 22.7
+Sobrepeso 22.7 a 26.9
+Obesidade >26.9
+
+Idade 15
+Magreza <16
+Normal 16 a 23.6
+Sobrepeso 23.6 a 27.8
+Obesidade >27.8
+
+Idade 16
+Magreza <16.5
+Normal 16.5 a 24.3
+Sobrepeso 24.3 a 28.6
+Obesidade >28.6
+
+Idade 17
+Magreza <16.9
+Normal 16.9 a 24.9
+Sobrepeso 24.9 a 29.2
+Obesidade >29.2
+
+Idade 18
+Magreza <17.3
+Normal 17.3 a 25.5
+Sobrepeso 25.5 a 29.7
+Obesidade >29.7
+
+----------------------------------
+Mulheres Adultas
+
+Idade 19 a 64
+Magreza <18.5
+Normal 18.5 a 24.9
+Sobrepeso 24.9 a 30
+Obesidade >30
+
+Homens Adultos
+
+Idade 19 a 64
+Magreza <18.5
+Normal 18.5 a 24.9
+Sobrepeso 24.9 a 30
+Obesidade >30
+
+----------------------------------
+Idosos
+
+Idade 19 a 64
+Magreza <20
+Normal 20 a 30
+Sobrepeso 30 a 35
+Obesidade >35
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
