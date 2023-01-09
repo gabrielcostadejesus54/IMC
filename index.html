@@ -5,38 +5,108 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
-        <title>IMC</title>
+        <link rel="stylesheet" href="css/mobile.css">
+        <title>IMC - Indice de massa corporal | Greater code</title>
     </head>
     <body>
-        <h1>Calcule agora seu IMC</h1>
-        <form class="formulario">
-            <div class="wraper-input">
-                <p>Nome:</p>
-                <input type="text" name="nome" placeholder="Qual seu nome?">
-            </div><!--wraper-input-->
-            <div class="wraper-input">
-                <p>Sexo:</p>
-                <input type="text" name="sexo" placeholder="M ou F">
-            </div><!--wraper-input-->
-            <div class="wraper-input">
-                <p>Idade:</p>
-                <input type="text" name="idade" placeholder="Ex: 35">
-            </div><!--wraper-input-->
-            <div class="wraper-input">
-                <p>Altura:</p>
-                <input type="text" name="altura" placeholder="Ex: 1.60">
-            </div><!--wraper-input-->
-            <div class="wraper-input">
-                <p>Peso:</p>
-                <input type="text" name="peso" placeholder="Ex: 65">
-            </div><!--wraper-input-->
-            <input type="submit" value="Resultado">
-            <div class="resultado">
-                <p></p>
-            </div><!--resultado-->
-        </form><!--formulario-->
+        <header>
+            <div class="center">
+                <div class="logo">
+                    <img src="img/Logo imc (1).png" alt="Logo IMC">
+                </div><!--logo-->
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a style="border-bottom:3px solid var(--corTitulo);" href="index.html">Inicio</a></li>
+                        <li><a href="bibliografia.html">Bibliografia</a></li>
+                    </ul>
+                </nav>
+                <nav class="menu-mobile">
+                    <ul>
+                        <li><a style="border-bottom:3px solid var(--corTitulo);" href="index.html">Inicio</a></li>
+                        <li><a href="bibliografia.html">Bibliografia</a></li>
+                    </ul>
+                </nav>
+            </div><!--center-->
+        </header>
+        <main class="center">
+            <section class="sessao01">
+                <form class="formulario">
+                    <h1>Calcule agora seu IMC</h1>
+                    <div class="wraper-input">
+                        <p>Nome:</p>
+                        <input type="text" name="nome" placeholder="Qual seu nome?" required>
+                    </div><!--wraper-input-->
+                    <div class="wraper-input">
+                        <p>Sexo:</p>
+                        <input type="text" name="sexo" placeholder="M ou F" required>
+                    </div><!--wraper-input-->
+                    <div class="wraper-input">
+                        <p>Idade:</p>
+                        <input type="text" name="idade" placeholder="Ex: 35" required>
+                    </div><!--wraper-input-->
+                    <div class="wraper-input">
+                        <p>Altura:</p>
+                        <input type="text" name="altura" placeholder="Ex: 1.60" required>
+                    </div><!--wraper-input-->
+                    <div class="wraper-input">
+                        <p>Peso:</p>
+                        <input type="text" name="peso" placeholder="Ex: 65" required>
+                    </div><!--wraper-input-->
+                    <input type="submit" value="Resultado">
+                    <div class="resultado">
+                        <p></p>
+                    </div><!--resultado-->
+                </form><!--formulario-->
+                <div class="imc">
+                    <h2>IMC (índice de Massa Corporal)</h2>
+                    <p>É um método de avaliação para saber se o indivíduo está com a massa corporal dentro do peso ideal (de forma saudável) para a sua idade, se está abaixo do peso, com sobrepeso ou obeso.</p>
+                    <p>Abaixo temos uma tabela que mostra o peso corporal recomendado pela Organização Mundial da Saúde (OMS) com base nos valores de IMC para adultos.</p>
+                    <table>
+                        <thead>
+                            <th>IMC</th>
+                            <th>Classificação</th>
+                        </thead>
+                        <tr>
+                            <td>Menor que 18.5</td>
+                            <td>Magreza</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 a 24.9</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td>24.9 a 30</td>
+                            <td>Sobrepeso</td>
+                        </tr>
+                        <tr>
+                            <td>Maior que 30</td>
+                            <td>Obesidade</td>
+                        </tr>
+                    </table>
+                </div><!--imc-->
+            </section>
+            <section class="conteudo">
+                <div class="center">
+                    <article>
+                        <h2>IMPORTÂNCIA DE SABER O IMC</h2>
+                        <p>Um novo estudo da University of Bristol indica o índice de massa corporal (IMC) como uma ferramenta eficaz para avaliar a obesidade e a saúde. Sendo um método confiável, é também simples e que pode ser feito por qualquer indivíduo. 
+                        Ao saber em que faixa está, poderá saber se está saúdavel, pois ao sair do peso ideal estando abaixo ou acima, aumenta o risco de diversos problemas de saúde. 
+                        </p>
+                        <p>Com o IMC normal, a pessoa está possivelmente saudável, tendo menos riscos de doenças cardiovasculares. Mas ainda assim é necessário ficar de olho, pois o IMC não é suficiente para definir se o indiviuo está saudável, o cálculo feito não leva em conta o percentual de gordura do indivíduo. "Uma pessoa com um IMC bom pode apresentar todos os problemas dos obesos se ela perder massa magra e acumular mais gordura, pois essa condição pode levá-la a desenvolver doenças metabólicas", alerta Geloneze.
+                        Para garantir um IMC saudável, deve garantir um estilo de vida saudável, e sendo ativo nas atividades físicas.</p>
+                        <p>Estar abaixo do peso contribui para doenças pulmonares, cardiovasculares, como insuficiência cardíaca, quedas e lesões, tendo casos em que pode haver desnutrição. A falta do consumo de nutrientes pode causar fraqueza, falta de concentração, esquecimento, queda de cabelo, pele seca, unhas e cabelos fracos e quebradiços, anemia, irritabilidade, dores nas articulações e tontura. De acordo com Maria Fernanda Barca, doutora em endocrinologia pela FMUSP (Faculdade de Medicina da Universidade de São Paulo), membro da SBEM (Sociedade Brasileira de Endocrinologia e Metabologia) e da SEE (Sociedade Europeia de Endocrinologia), "A pessoa com um IMC muito baixo não perde apenas gordura, mas também massa muscular, que é constituída por proteína. Essa baixa nos níveis proteicos pode impactar na função renal, no sistema circulatório e até mesmo na troca de substâncias dentro do vaso sanguíneo. A parte hormonal também é afetada devido ao baixo percentual de gordura corporal, levando à ausência parcial ou total de menstruação nas mulheres", explica Barca. Para aumentar o IMC "Para isso, deve incluir carboidratos, gorduras e, principalmente, proteínas de boa qualidade para ajudar a recuperar a massa muscular", ensina Débora Regina Palos, nutricionista clínica e funcional formada pela Universidade São Camilo.</p>
+                        <p> Acima do peso e Obesidade, por sua vez, também coloca em risco tendo doenças como diabetes, doenças cardiovasculares, pressão alta, derrame, quanto mais alto o grau de obesidade, maiores são os riscos, angina, infarto, aterosclerose, apneia do sono, refluxo, acidente vascular cerebral e problemas articulares por conta do excesso de peso. O consumo calórico do indivíduo é maior do que a queima de calorias. No dia a dia é um maior cansaço devido à sobrecarga causada pelo excesso de peso, "O paciente com sobrepeso é mais inflamado, condição que contribui para evolução de quadros infecciosos mais graves. E também tem maiores chances de desenvolver resistência à insulina, quadro que mantêm os níveis desse hormônio elevados por mais tempo, estimulando a fome e aumentando as chances dele se tornar um obeso", alerta Barca. Para diminuir o IMC é preciso ingerir menos calorias do que se gasta, colocando em prática o método déficit calórico. Não esquecendo de ingerir alimentos saudáveis e naturais, ingerindo também bastante água. Também sendo importante as atividades físicas, se manter em movimento, praticar esportes, dessa forma, reduzindo o IMC, também consequentemente reduzirá os riscos de doenças.</p>
+                    </article>
+                </div><!--center-->
+            </section><!--conteudo-->
+            
+        </main>
+        <footer>
+            <p>Todos Direitos Reservados</p>
+        </footer>
         <script src="js/jquery.js"></script>
         <script src="js/jquery.mask.min.js"></script>
-        <script src="js/script.js"></script>
+        <script src="js/imc.js"></script>
+        <script src="js/menu-mobile.js"></script>
     </body>
 </html>

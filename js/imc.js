@@ -1,7 +1,7 @@
 $(function(){
     $('input[name=altura]').mask('0.00')
-    $('input[name=peso]').mask('0#')
-    $('input[name=idade]').mask('0#')
+    $('input[name=peso]').mask('000')
+    $('input[name=idade]').mask('000')
 
     $('.formulario').submit(function(){
         event.preventDefault()
@@ -10,7 +10,7 @@ $(function(){
         var peso = $('input[name=peso]').val()
         var altura = $('input[name=altura]').val()
         var idade = $('input[name=idade]').val()
-        
+        $('.resultado').css('background-color','white').css('border-radius','10px');
         
         function validation(){
             if(nome == ''){

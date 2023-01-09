@@ -1,36 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans';
+    font-family: 'Fresca';
+}
+
+:root{
+    --corPrincipal:rgb(66, 66, 250);
+    --corTitulo:#0F085E;
+}
+
+p, a, li, td{
+    font-size: 20px;
 }
 
 h1{
-    text-align: center;
-    margin: 30px;
+    font-size: 40px;
 }
 
-.formulario{
-    margin: 30px auto;
-    border-radius: 10px;
-    box-shadow: 0px 2px 13px 2px rgba(204,204,204,1);
-    max-width: 300px;
-    width: 98%;
+h2{
+    font-size: 30px;
+    color: var(--corTitulo);
+}
+
+th{
+    font-size: 25px;
+}
+
+
+main{
+    padding: 0 2%;
+}
+
+.center{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    padding: 10px 2%;
+    border-bottom: 3px solid var(--corPrincipal);
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    background-color: white;
+}
+
+header .center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    width: 60px;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 7px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--corTitulo);
+    font-weight: bold;
+}
+
+header nav.menu-desktop ul li a:hover{
+    border-bottom:3px solid var(--corTitulo);
+}
+
+
+/* fim header */
+
+/* sessao01 */
+section.sessao01{
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+div.imc{
+    padding: 30px;
+    text-align: center;
+}
+
+.imc > h2{
+    margin: 10px 0;
+    color: var(--corTitulo);
+}
+
+.imc > p{
+    max-width: 500px;
+    width: 100%;
+    text-align: justify;
+}
+
+.sessao01 table{
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.sessao01 table tr td,.sessao01 table thead th{
+    border: 1px solid black;
     padding: 10px;
 }
 
+.sessao01 table thead th{
+    background-color: var(--corPrincipal);
+    text-align: center;
+}
+
+.formulario > h1{
+    text-align: center;
+    color: var(--corTitulo);
+    padding:10px 0;
+}
+
+.formulario{
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--corPrincipal);
+}
+
 input[type=text]{
-    width:50%;
-    height: 32px;
-    line-height: 32px;
-    border: 1px solid #b2b2b2;
+    width:80%;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid rgb(241, 238, 238);
     padding-left: 7px;
     border-radius: 7px;
     outline: none;
-}
-
-input[name=nome]{
-    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
 }
 
 .wraper-input{
@@ -39,28 +161,79 @@ input[name=nome]{
 
 .wraper-input p{
     font-weight: bold;
+    text-align: center;
 }
 
 input[type=submit]{
-    width: 100%;
+    width: 80%;
     padding: 10px;
-    background-color: rgb(66, 66, 250);
+    background-color: var(--corTitulo);
     border: 0;
     color: white;
     cursor: pointer;
     border-radius: 7px;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
 }
 
 .resultado{
-    width: 100%;
+    width: 80%;
     padding: 10px;
-    background-color: #ccc;
-    margin-top: 10px;
+    margin: 10px auto;
     text-align: center;
+    
 }
 
-@media screen and (max-width:280px){
-    input[type=text]{
-        width: 100%;
-    }
+/* fim sessao 01 */
+
+
+/* conteudo */
+.conteudo article{
+    margin-top: 20px;
 }
+
+.conteudo article p{
+    text-indent: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.conteudo article h3{
+    color: #4242FA;
+}
+/* fim conteudo */
+
+/* footer */
+footer{
+    border-top: 3px solid var(--corPrincipal);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+
+/* fim footer */
+
+
+/* PAGINA BIBLIOGRAFIA */
+.bibliografias{
+    background-color: #4242fab6;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 20px 80px;
+    border-radius: 10px;
+}
+
+.bibliografias a{
+    display: inline-block;
+    margin: 10px 0;
+    padding-left: 5px;
+}
+
+.bibliografias svg{
+    width: 20px;
+    display: inline-block;
+}
+/* FIM PAGINA BIBLIOGRAFIA */
+

@@ -246,7 +246,7 @@ Obesidade >30
 ----------------------------------
 Idosos
 
-Idade 19 a 64
+Idade 64+
 Magreza <20
 Normal 20 a 30
 Sobrepeso 30 a 35

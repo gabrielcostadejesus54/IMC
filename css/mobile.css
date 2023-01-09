@@ -1,0 +1,66 @@
+
+@media screen and (max-width:1024px){
+    section.sessao01{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .formulario{
+        margin: auto;
+    }
+
+    .imc p{
+        margin: auto;
+    }
+
+    div.imc{
+        padding: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width:768px){
+    nav.menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-image: url('../img/menu.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .menu-mobile ul{
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        border-bottom: 3px solid var(--corPrincipal);
+        top: 90px;
+        left: 0;
+        text-align: center;
+        display: none;
+    }
+
+    .menu-mobile ul li a:hover{
+        color: var(--corPrincipal);
+    }
+
+    .menu-mobile ul li{
+        display: block;
+    }
+
+    .menu-mobile ul li a{
+        display: block;
+        padding: 7px 0;
+        width: 100%;
+    }
+
+    
+}
